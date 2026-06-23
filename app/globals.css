@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  /* Robin — Navy (brand primary) */
+  --robin-50: #F2F4F8;
+  --robin-100: #E3E7F0;
+  --robin-200: #C4CCE0;
+  --robin-300: #A3AFCE;
+  --robin-400: #7B8FB7;
+  --robin-500: #3F527B;
+  --robin-600: #2E3D65;
+  --robin-700: #1F2A47;
+  --robin-800: #13171F;
+  --robin-900: #080C14;
+
+  /* Crystal — Ice (accent) */
+  --crystal-200: #D8F0F9;
+  --crystal-300: #C1E8F8;
+  --crystal-400: #8BCFE6;
+  --crystal-500: #44ADCC;
+  --crystal-600: #1E82A3;
+
+  /* Phantom — Gray (neutral) */
+  --phantom-50: #F8F9FB;
+  --phantom-100: #F0F2F5;
+  --phantom-200: #DDE1E9;
+  --phantom-300: #C3C9D6;
+  --phantom-400: #9EA8BB;
+  --phantom-500: #707C93;
+  --phantom-600: #47515F;
+  --phantom-700: #282E3A;
+  --phantom-900: #07090D;
+
+  /* Semantic background */
+  --color-bg-page: #F8F9FB;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #F0F2F5;
+
+  /* Semantic text */
+  --color-text-primary: #07090D;
+  --color-text-secondary: #47515F;
+  --color-text-tertiary: #9EA8BB;
+
+  /* Semantic border */
+  --color-border-default: #DDE1E9;
+  --color-border-brand: #3F527B;
+
+  /* Actions */
+  --color-action-primary: #3F527B;
+  --color-action-primary-hover: #2E3D65;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 4px rgba(7, 9, 13, 0.06);
+  --shadow-md: 0 2px 12px rgba(7, 9, 13, 0.08);
+  --shadow-lg: 0 4px 24px rgba(7, 9, 13, 0.12);
+
+  /* Typography */
+  --font-ui: 'Rubik', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+body {
+  font-family: var(--font-ui);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Fullscreen slide viewport */
+.slide-viewport:fullscreen,
+.slide-viewport:-webkit-full-screen,
+.slide-viewport:-moz-full-screen {
+  aspect-ratio: auto;
+  border-radius: 0;
+  box-shadow: none;
+  width: 100vw;
+  height: 100vh;
+}

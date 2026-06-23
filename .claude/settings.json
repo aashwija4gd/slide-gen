@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf /Users/aashwijathantry/Documents/Repositories/slide-gen/.git)"
+    ],
+    "additionalDirectories": [
+      "/Users/aashwijathantry/Documents/Repositories/slide-gen/.git"
+    ]
+  }
+}
